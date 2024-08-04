@@ -1,0 +1,742 @@
+body{
+    margin: 0px;
+}
+
+/*
+    Section 1 - Hero Section
+*/
+.hero-section{
+    background-image: url(Assets/images/HeroSectionBackgroundResized.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+}
+ul{
+    display: flex;
+    gap: 88px;
+    margin-top: 50px;
+    text-decoration: none;
+    margin-left: 85px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+li{
+    display: flex;
+    
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size:larger ;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-top: 35px;
+    margin-left:  70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+.auth-buttons{
+    margin-top: 37px;
+    margin-right: 150px;
+    display: flex;
+    gap: 15px;
+}
+
+.login-btn{
+    background-color: #0C4B54;
+    border: solid #E8F549 1px;
+    height: 45px;
+    width: 120px;
+    border-radius: 25px;
+    color: #E8F549;
+    font-size: 20px;
+}
+
+.signup-btn{
+    background-color: #E8F549;
+    border: solid #E8F549 1px;
+    height: 45px;
+    width: 120px;
+    border-radius: 25px;
+    color: #040404;
+    font-size: 20px;
+}
+
+/* Main Hero Banner */
+
+.tag-button{
+    margin-left: 70px;
+    margin-top: 85px;
+    border: solid #FFFFFF 1px;
+    background-color: #0C4B54;
+    color: #FFFFFF;
+    border-radius: 25px;
+    height: 40px;
+    width: 270px;
+}
+
+.headline{
+    margin-left: 70px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    font-weight: 800;
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 45%;
+}
+
+.mod-headline{
+    color: #E8F549;
+}
+
+.hero-para{
+    margin-left: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 19px;
+    width: 50%;
+}
+
+.hero-button1{
+    margin-left: 70px;
+    background-color: #E8F549;
+    border: solid #E8F549 1px;
+    height: 45px;
+    width: 135px;
+    font-size: 18px;
+    border-radius: 25px;
+    color: #040404;
+    margin-top: 10px;
+}
+
+.hero-button2{
+    background-color: #0C4B54;
+    border: solid #E8F549 1px;
+    height: 45px;
+    width: 200px;
+    font-size: 18px;
+    border-radius: 25px;
+    color: #E8F549;
+    margin-left: 10px;
+}
+
+
+/*
+    Section 2 - History Section
+*/
+
+.history-section{
+    display: flex;
+}
+
+.left-float{
+    margin-left: 75px;
+    margin-top: 38px;
+    font-weight: 500;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    color:#040404;
+}
+
+.right-float{
+    margin-top: 70px;
+    font-weight: 300;
+    width: 40%;
+    margin-right: 70px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#discover{
+    color: #0C4B54;
+}
+
+.picture-container{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+.picture{
+    margin-top: 30px;
+    background-color:#0C4B54;
+    border: #040404;
+    height: 330px;
+    width: 380px;
+    border-radius: 25px;
+}
+
+#first{
+    background-image: url(Assets/images/images.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#second{
+    background-image: url(Assets/images/download.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#third{
+    background-image: url(Assets/images/images2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*
+    Section 3 - Features Section
+*/
+.random-section{
+    margin-top: 100px;
+}
+
+.random-heading{
+    font-weight: 700;
+    font-size: 57px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 40%;
+    color:#040404;
+}
+
+.random-para{
+    font-weight: 500;
+    width: 40%;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.upper-part{
+    display: flex;
+    gap: 25px;
+}
+.picture-card1{
+    margin-left: 130px;
+    margin-top: 50px;
+    height: 360px;
+    width: 65%;
+    background-color: #0C4B54;
+    border-radius: 25px;
+}
+
+.text-card1{
+    margin-top: 50px;
+    background-color: #E8F549;
+    width: 600px;
+    border-radius: 25px;
+    margin-right: 135px;
+    background-image: url(Assets/images/many-pets-isolated_58409-12871.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.lower-part{
+    display: flex;
+    gap: 25px;
+}
+.text-card2{
+    background-color: #E8F549;
+    border-radius: 25px;
+    margin-left: 125px;
+    margin-top: 20px;
+    width: 600px;
+    background-image: url(Assets/images/istockphoto-1296353202-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.picture-card2{
+    margin-right: 130px;
+    margin-top: 20px;
+    height: 360px;
+    width: 65%;
+    background-color: #0C4B54;
+    border-radius: 25px;
+}
+
+.company-name{
+    margin-left: 40px;
+    margin-top: 35px;
+    font-size: 17px;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-heading{
+    font-weight: 600;
+    font-size: 37px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+    margin-top: 0%;
+    margin-left: 35px;
+    color: #FFFFFF;
+}
+
+.para{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 270;
+    margin-left: 35px;
+    color: #FFFFFF;
+    width: 91%;
+}
+
+.card-button{
+    background-color: #E8F549;
+    border: solid #E8F549 1px;
+    height: 45px;
+    width: 155px;
+    border-radius: 25px;
+    color: #040404;
+    margin-top: 5px;
+    margin-left: 35px;
+    font-size: 16px;
+}
+
+/*
+    Section 4 - Blog Section
+*/
+.section-heading{
+    margin-top: 90px;
+    font-weight: 700;
+    font-size: 57px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 40%;
+    color:#040404;
+}
+
+.blog-description{
+    font-weight: 500;
+    width: 40%;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.blog-cards{
+    display: flex;
+    gap: 25px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 90px;
+    justify-content: center;
+    position: relative;
+}
+
+.pin{
+    width: 50px;
+    height: 100px;
+    background-color: #E8F549;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 250px;
+    margin-left: 35px;
+    
+}
+.profile-circle{
+    
+    width: 70px;
+    height: 70px;
+    background-color: #0C4B54;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 200px;
+    margin-left: 455px;
+    
+} 
+
+#first_pfp{
+    background-image: url(Assets/images/ian_harding.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#second_pfp{
+    background-image: url(Assets/images/lucyHaleWhite.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.post-card{
+    width: 40%;
+    background-color: #0C4B54;
+    border-radius: 25px;
+    height: 300px;
+    
+}
+
+.Designation{
+    margin-top: 70px;
+    margin-left: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.blog-text{
+    color: #FFFFFF;
+    font-weight: 500;
+    width: 35%;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    position: absolute;
+    margin-left: 35px;
+}
+
+.blog-date{
+    color: #FFFFFF;
+    font-weight: 300;
+    width: 25%;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 35px;
+}
+.read-more{
+    color: #E8F549;
+    margin-top: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 35px;
+    padding-bottom: 10px;
+}
+
+/*
+    Section 5 - Review Section
+*/
+.own-blog-section{
+    margin-top: 100px;
+    background-image: url(Assets/images/Three_Cats.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    width: 100%;
+}
+
+.Review-section-heading{
+    font-weight: 700;
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 75%;
+    color:#040404;
+}
+
+.review-para{
+    font-weight: 500;
+    width: 40%;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+.customer-no{
+    font-weight: 600;
+    width: 70%;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 80px;
+    margin-top: 15px;
+    margin-bottom: 0%;
+    color: #0C4B54;
+}
+
+.left-portion{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 40%;
+    margin-top: 40px;
+
+}
+.review-button{
+    background-color: #0C4B54;
+    border: solid #E8F549 1px;
+    height: 45px;
+    width: 200px;
+    border-radius: 25px;
+    color:#FFFFFF;
+    font-size: 20px;
+    margin-left: 10px;
+}
+#see-all{
+    margin-left: 75px;
+    margin-top: 0%;
+}
+.review-body{
+    display: flex;
+    justify-content: space-around;
+}
+
+.all-reviews{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+    margin-right: 90px;
+}
+
+.review-part{
+    display: flex;
+    gap: 10px;
+}
+.review{
+    height: 180px;
+    width: 300px;
+    border-radius: 25px;
+    
+    background-color: #edeee2;
+}
+
+.reviewer-name{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.review > p{
+    font-size: 16px;
+    width: 90%;
+    text-align: center;
+}
+
+#next{
+    margin-top: 20px;
+}
+
+/*
+    Section 7 - FAQ Section
+*/
+.questions-headline{
+    font-weight: 700;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    color:#040404;
+    margin-top: 80px;
+}
+
+.questions-para{
+    font-weight: 500;
+    width: 50%;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.faqs{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 60px;
+    
+}
+
+.first-column, .second-column{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.questions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    border: solid #0C4B54 3px;
+    border-radius: 25px;
+    height: 85px;
+    width: 550px;
+}
+
+.questions > p {
+    font-weight: 700;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.question-body{
+    margin-left: 20px;
+}
+
+.plus{
+    margin-right: 30px;
+    font-weight: bolder;
+}
+
+/*
+    Section 8 - Footer Section
+*/
+.footer{
+    background-image: url(Assets/images/FooterBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.footer-heading{
+    margin-left: 80px;
+    margin-top: 0px;
+    padding-top: 60px;
+    font-weight: 600;
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 32%;
+    color: #FFFFFF;
+}
+
+.contact{
+    display: flex;
+    gap: 15px;
+}
+
+.address{
+    margin-left: 75px;
+    color: #FFFFFF;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-weight: 200;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icon{
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    border: solid #0C4B54 3px;
+}
+
+#first-icon{
+    background-image: url(Assets/images/locationIcon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.mail{
+    color: #FFFFFF;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-weight: 200;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#second-icon{
+    background-image: url(Assets/images/mailIcon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.line{
+    color: #FFFFFF;
+    margin-left: 75px;
+    margin-top: 70px;
+ }
+
+.statement{
+    display: flex;
+    gap: 50px;
+    color: #FFFFFF;
+ }
+
+.terms{
+    margin-left: 80px;
+}
+
+/*
+    Section 6 - Working Section
+*/
+.working-section{
+    display: flex;
+
+}
+.working-left-float{
+    margin-left: 100px;
+    margin-top: 100px;
+    font-weight: 600;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 60%;
+    color:#040404;
+}
+.mod-headline-2{
+    color: #0C4B54;
+}
+
+.working-right-float{
+    margin-top: 90px;
+    font-weight: 300;
+    width: 40%;
+    margin-right: 100px;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.picture-area{
+    display: flex;
+    gap: 25px;
+}
+
+.left-slide{
+    margin-left: 120px;
+    height: 350px;
+    width: 30%;
+    margin-top: 25px;
+    background-color: #0C4B54;
+    border-radius: 25px;
+    background-image: url(Assets/images/happyCustomer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.right-slide{
+    height: 350px;
+    width: 60%;
+    margin-top: 25px;
+    background-color: #0C4B54;
+    border-radius: 25px;
+    margin-right: 120px;
+    background-image: url(Assets/images/pet3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.play-button{
+    height: 100px;
+    width: 100px;
+    border: solid #FFFFFF 5px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 680px;
+    background-image: url(Assets/images/PlayButton.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
