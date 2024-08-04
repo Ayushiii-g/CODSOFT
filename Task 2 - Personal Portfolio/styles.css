@@ -1,0 +1,766 @@
+body{
+    margin: 0px;
+}
+/** 
+    Section 1- Hero Section
+*/
+                            /** Background image*/
+.hero-section{
+    background-image: url(Assets/images/herobg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+                         /** 
+                            Sub section- Navigation Bar
+                        */
+.nav-bar{
+    display: flex;
+    gap: 95px;
+    
+    margin-top: 15px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    margin-top: 40px;
+    justify-content: center;
+    margin-left: 5px;
+    padding-left: 10px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #030712;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 350;
+    font-size: 19px;
+}
+.nav-bar-logo{
+    margin-top: 32px;
+    margin-left: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 23px;
+}
+.mod-logo{
+    color: #909090;
+}
+
+.nav-bar-items{
+    display: flex;
+    gap: 50px;
+}
+
+.hero-button{
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+    margin-left: 75px;
+}
+.button-1{
+    background-image: url(Assets/images/GradientBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 42px;
+    width: 125px;
+    border: none;
+    border-radius: 25px;
+    color: #FFFFFF;
+    margin-top: 23px;
+    font-size: 18px;
+}
+
+.button-2{
+    height: 42px;
+    width: 145px;
+    border: none;
+    border-radius: 25px;
+    color: #FFFFFF;
+    margin-top: 23px;
+    font-size: 18px;
+    background-color: #909090;
+}
+
+.hero-title{
+    margin-left: 110px;
+    margin-top: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 62px;
+    width: 40%;
+}
+.border{
+    color: #FFFFFF;
+}
+.hero-para{
+    margin-left: 110px;
+    width: 40%;
+    font-weight: 290;
+    font-size: 17px;
+    color: #909090;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 35px;
+}
+
+.hero-section-button{
+    display: flex;
+    gap: 10px;
+    margin-left: 110px;
+    margin-top: 30px;
+}
+
+.hero-body-button-1{
+    background-image: url(Assets/images/GradientBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 45px;
+    width: 142px;
+    border: none;
+    border-radius: 25px;
+    color: #FFFFFF;
+    margin-top: 3px;
+    font-size: 17px;
+}
+
+.hero-body-button-2{
+    height: 45px;
+    width: 142px;
+    border: solid #030712 1px;
+    border-radius: 25px;
+    color: #030712;
+    margin-top: 3px;
+    background-color: #FFFFFF;
+    font-weight: 200;
+    font-size: 17px;
+}
+
+/** 
+    Section 2- About Me Section
+*/
+
+.about-section-title{
+    font-size: 47px;
+    font-weight: 700;
+    margin-left: 110px;
+    width: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0%;
+}
+
+.about-section-para{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 110px;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #909090;
+    margin-top: 20px;
+}
+.about-section-body{
+    display: flex;
+    margin-left: 110px;
+    margin-top: 50px;
+    gap: 50px;
+}
+
+.about-section-body-left{
+    width: 1710px;
+    height: 350px;
+    background-color: #909090;
+    border-radius: 25px;
+    background-image: url(Assets/images/web_developer.jpeg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.about-section-body-right{
+    margin-top: 10px;
+    margin-right: 100px;
+    width: 125%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 450;
+    font-size: 17px;
+}
+
+#second-para{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/** 
+    Section 3- Skills Section
+*/
+.skills-section-title{
+    margin-top: 100px;
+    font-size: 47px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.skills-section-para{
+    font-size: 17px;
+    font-weight: 500;
+    width: 47%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #030712;
+    margin-top: 20px;
+}
+
+.skills-section-body{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.skills-section-body-parts{
+    display: flex;
+    gap: 25px;
+}
+
+.skills-section-card{
+    height: 320px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid #909090 2px;
+    border-radius: 25px;
+}
+
+.skill-pic{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #909090;
+}
+.card-head{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 150px;
+    margin-top: 20px;
+}
+.card-text{
+    margin-top: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 400px;
+    width: 90%;
+    margin-top: 10px;
+}
+
+#first-card{
+    background-image: url(Assets/images/webdev.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#second-card{
+    background-image: url(Assets/images/coding.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#third-card{
+    background-image: url(Assets/images/pm.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#fourth-card{
+    background-image: url(Assets/images/dbms.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#fifth-card{
+    background-image: url(Assets/images/ui.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#Sixth-card{
+    background-image: url(Assets/images/cw.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+}
+
+/** 
+    Section 4 - Latest Works Section
+*/
+.latest-works-section-heading{
+    margin-top: 100px;
+    font-size: 45px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 100px;
+}
+
+.latest-works-section-body{
+    margin-top: 50px;
+    margin-left: 68px;
+    display: flex;
+    gap: 35px;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.latest-works-section-body-upper{
+    display: flex;
+    gap: 45px;
+    margin-left: 100px;
+    
+}
+.image-part{
+    width: 570px;
+    height: 350px;
+    border-radius: 25px;
+    background-color: #909090;
+}
+
+.image-part-bigger{
+    width: 1190px;
+    height: 300px;
+    border-radius: 25px;
+    background-color: #909090;
+    
+}
+.latest-works-section-body-lower{
+    margin-left: 100px;
+    
+}
+
+.desc-part{
+    display: flex;
+    gap: 250px;
+}
+.desc-write{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    padding-top: 0%;
+    margin-left: 5px;
+}
+.desc-heading{
+    font-size: 23px;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin-bottom: 0%;
+    margin-top: 15px;
+}
+
+.desc-para{
+    font-size: 15px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 7px;
+}
+
+.link-button{
+    height: 45px;
+    width: 65px;
+    border-radius: 35px;
+    background-color: #909090;
+    margin-top: 17px;
+    border: solid #030712 2px;
+    background-image: url(Assets/images/Arrow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#first-image{
+    background-image: url(Assets/images/landing-page1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#second-image{
+    background-image: url(Assets/images/func-web1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#third-image{
+    background-image: url(Assets/images/Clone.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.desc-part-bigger{
+    display: flex;
+    gap: 870px;
+}
+
+.know-more-button{
+    height: 45px;
+    width: 135px;
+    border-radius: 25px;
+    background-image: url(Assets/images/GradientBackground.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    color: #FFFFFF;
+}
+
+.end-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/** 
+    Section 5 - Resume Section
+*/
+.resume{
+    display: flex;
+    gap: 0px;
+}
+.resume-section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    gap: 0px;
+}
+.left-part{
+   margin-top: 0%;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 110px;
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+.resume-para{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: #909090;
+    padding: 110px;
+    padding-right: 0%;
+    padding-top: 0%;
+    padding-bottom: 25px;
+    width: 80%;
+}
+
+.download-button{
+    margin-top: 50px;
+    margin-left: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 750;
+    font-size: 20px;
+    
+}
+
+.resume-image{
+    margin-top: 100px;
+    margin-right: 100px;
+    width: 1800px;
+    height: 300px;
+    margin-left: 0%;
+    background-color: #909090;
+    border-radius: 25px;
+    background-image: url(Assets/images/ResumeSection.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/** 
+    Section 6 - Footer Section
+*/
+.Contact-section{
+    background-image: url(Assets/images/ContactSection.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.contact-heading{
+    margin-top: 0%;
+    padding-top: 100px;
+    margin-left: 1121px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 750;
+    font-size: 55px;
+}
+
+.contact-para{
+    margin-top: 25px;
+    margin-left: 810px;
+    width: 40%;
+    text-align: end;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #909090;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+   gap: 15px;
+   margin-left: 840px;
+   margin-top: 35px;
+}
+
+.contact-form input{
+    width: 500px;
+    height: 40px;
+    border-radius: 15px;
+    border: solid #909090 2px;
+}
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 16px;
+    font-weight: 400;
+    font-size: 20px;
+    align-items: center;
+}
+
+.contact-button{
+    width: 120px;
+    height: 42px;
+    border-radius: 25px;
+    border: none;
+    background-image: url(Assets/images/GradientBackground.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-left: 460px;
+    margin-top: 10px;
+}
+
+textarea{
+    width: 470px;
+    border: solid #909090 2px;
+    border-radius: 15px;
+    height: 40px;
+}
+
+.contact-icons{
+    display: flex;
+    gap: 25px;
+    margin-top: 25px;
+    margin-left: 1180px;
+}
+
+.icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #909090;
+}
+
+.facebook{
+    background-image: url(Assets/images/Facebook.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.linkedin{
+    background-image: url(Assets/images/LinkedIn.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.twitter{
+    background-image: url(Assets/images/Twitter.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.mail{
+    background-image: url(Assets/images/Mail.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/** Footer Section */
+footer{
+    margin-top: 100px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+i {
+  margin-right: 10px;
+}
+/*----------bootstrap-navbar-css------------*/
+.navbar-logo {
+  padding: 15px;
+  color: #fff;
+}
+
+
+footer {
+  position: relative;
+  width: 100%;
+  background: #df6b9c;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+footer .social_icon,
+footer .menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  
+}
+
+.menu{
+    margin-top: 20px;
+}
+footer .social_icon li,
+footer .menu li {
+  list-style: none;
+}
+footer .social_icon li a {
+  font-size: 2em;
+  color: #ccc;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+footer .social_icon li a:hover {
+  transform: translateY(-15px);
+  color: #909090;
+}
+
+footer .menu li a {
+  font-size: 1.2em;
+  color: #ccc;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+}
+footer .menu li a:hover {
+  opacity: 1;
+  color: #fff;
+}
+/**p {
+    color: whtie;
+    
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+  }*/
+
+.copyright {
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+/*wave and animation*/
+footer .wave {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url(Assets/images/Wave2.png);
+  background-size: 1000px 100px;
+}
+
+footer .wave#wave1 {
+  z-index: 1000;
+  opacity: 1;
+  bottom: 0;
+  animation: animateWave 4s linear infinite;
+}
+
+footer .wave#wave2 {
+  z-index: 999;
+  opacity: 0.5;
+  bottom: 10px;
+  animation: animateWave_02 4s linear infinite;
+}
+footer .wave#wave3 {
+  z-index: 1000;
+  opacity: 0.2;
+  bottom: 0;
+  animation: animateWave 3s linear infinite;
+}
+
+footer .wave#wave4 {
+  z-index: 999;
+  opacity: 0.7;
+  bottom: 20px;
+  animation: animateWave_02 3s linear infinite;
+}
+
+@keyframes animateWave {
+  0% {
+    background-position-x: 1000px;
+  }
+  100% {
+    background-position-x: 0px;
+  }
+}
+
+@keyframes animateWave_02 {
+  0% {
+    background-position-x: 0px;
+  }
+  100% {
+    background-position-x: 1000px;
+  }
+}
+
+
+
+
